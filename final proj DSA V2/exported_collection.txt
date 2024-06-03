@@ -1,0 +1,68 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=
+YOUR CD COLLECTION
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=
+1)
+Title: Thriller
+Artist: Michael Jackson
+Release Date: 1982-11-30
+Genre: Pop
+Duration: 42 
+Price: 9.99
+Conservation: 5
+Disc Format: CD
+
+2)
+Title: Nevermind
+Artist: Nirvana
+Release Date: 1991-09-24
+Genre: Rock
+Duration: 51 mins
+Price: 11.99
+Conservation: 3
+Disc Format: Blueray
+
+3)
+Title: Back in Black
+Artist: AC/DC
+Release Date: 1980-07-25
+Genre: Rock
+Duration: 42 mins
+Price: 8.99
+Conservation: 1
+Disc Format: CD
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=
+YOUR VINYL COLLECTION
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=
+1)
+Title: Abbey Road
+Artist: The Beatles
+Release Date: 1969-09-26
+Genre: Rock
+Duration: 47 mins
+Price: 24.99
+Conservation: 2
+Diameter: 12 inches
+RPM: 33 
+
+2)
+Title: Rumours
+Artist: Fleetwood Mac
+Release Date: 1977-02-04
+Genre: Pop 
+Duration: 39 mins
+Price: 19.99
+Conservation: 4
+Diameter: 12 inches
+RPM: 33 
+
+3)
+Title: Hotel California
+Artist: The Eagles
+Release Date: 1976-12-08
+Genre: Rock
+Duration: 43 mins
+Price: 22.99
+Conservation: 2
+Diameter: 12 inches
+RPM: 33 

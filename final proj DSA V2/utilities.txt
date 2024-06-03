@@ -1,0 +1,36 @@
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+//* Author: Lucas Germinari Carreira
+//* Date last updated: 04/28/2024
+//* Description (utilities file): This file contains elements of code that might be useful in the future. 
+//* Tested: N/A 
+//* Notes:
+    - This file is inteded for quick retrieval or storage, that`s why was left as a simple text file.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+//functor to pass hash function to hash table
+struct StringHashFunc {
+    std::size_t operator()(const QueueLL<std::string> q)const {
+        int value = q.size();
+        
+        static constexpr std::size_t FNV_PRIME = 16777619;
+        static constexpr std::size_t FNV_OFFSET_BASIS = 2166136261;
+
+        std::size_t hashValue = FNV_OFFSET_BASIS;
+        for (std::size_t i = 0; i < sizeof(int); ++i) {
+            hashValue ^= static_cast<std::size_t>(value & 0xFF);
+            value >>= 8;
+            hashValue *= FNV_PRIME;
+        }
+        return hashValue;
+    }
+};
+
+struct StringHashFunc2 {
+    std::size_t operator()(const std::string& str) const {
+        std::size_t hashValue = 0;
+        for (char c : str) {
+            hashValue = hashValue * 31 + static_cast<std::size_t>(c);
+        }
+        return hashValue;
+    }
+};
